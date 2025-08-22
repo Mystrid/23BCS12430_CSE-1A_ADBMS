@@ -1,4 +1,4 @@
---  ## Filtered Student View with Aggregated Data
+--  ## Easy Level
 
 CREATE TABLE Employee (
     EmpID INT PRIMARY KEY,
@@ -29,7 +29,7 @@ JOIN Employee AS M
 ON E.ManagerId = M.EmpID;
 
 
---  ## Logging Grade Updates with Triggers & Functions
+--  ## Medium Level
 
 CREATE TABLE YEARS_TBL(
  ID INT,
